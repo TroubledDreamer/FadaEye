@@ -1,10 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import GetStarted from './page/GetStarted';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text></Text>
+      <GetStarted></GetStarted>
+
+
+
+      
+
+
       <StatusBar style="auto" />
     </View>
   );
